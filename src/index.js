@@ -1,12 +1,9 @@
-// import { initializeApp } from "import { } from 'https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js'";
-// import { getDatabase } from "import { } from 'https://www.gstatic.com/firebasejs/9.17.1/firebase-database.js'";
 import { initializeApp } from "firebase/app";
 import { getDatabase, ref, set } from "firebase/database";
 import { firebaseConfig } from "./config.mjs";
 
 const app = initializeApp(firebaseConfig);
 const db = getDatabase(app);
-// const ref = ref(db, '/selection/');
 
 const submit = document.getElementById('submit_form');
 
